@@ -1,0 +1,35 @@
+{
+    "Drone": {
+        "checkpoints": [
+            {
+                "steps": 482947,
+                "file_path": "results\\drone17-9-2020-3\\Drone\\Drone-482947.nn",
+                "reward": 0.06833333513802953,
+                "creation_time": 1600363933.854405
+            },
+            {
+                "steps": 499997,
+                "file_path": "results\\drone17-9-2020-3\\Drone\\Drone-499997.nn",
+                "reward": -0.014256122250201115,
+                "creation_time": 1600364101.5715337
+            },
+            {
+                "steps": 500239,
+                "file_path": "results\\drone17-9-2020-3\\Drone\\Drone-500239.nn",
+                "reward": -0.014384059687617464,
+                "creation_time": 1600364105.115499
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500239,
+            "file_path": "results\\drone17-9-2020-3\\Drone.nn",
+            "reward": -0.014384059687617464,
+            "creation_time": 1600364105.115499
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.19.0",
+        "tensorflow_version": "2.3.0"
+    }
+}

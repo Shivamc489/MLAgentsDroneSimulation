@@ -1,0 +1,2 @@
+model_checkpoint_path: "PlayerMaze-385664.ckpt"
+all_model_checkpoint_paths: "PlayerMaze-385664.ckpt"

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1600362368",
+        "python_version": "3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]",
+        "command_line_arguments": "F:\\Unity Projects\\.VirtualEnvironments\\UnityMLAgentSetupEnv\\scripts\\mlagents-learn Drone.yaml --run-id=drone17-9-2020-2",
+        "mlagents_version": "0.19.0",
+        "mlagents_envs_version": "0.19.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.3.0",
+        "numpy_version": "1.19.1",
+        "end_time_seconds": "1600362436"
+    },
+    "total": 67.7501407,
+    "count": 1,
+    "self": 0.4762856000000113,
+    "children": {
+        "run_training.setup": {
+            "total": 0.13026660000000057,
+            "count": 1,
+            "self": 0.13026660000000057
+        },
+        "TrainerController.start_learning": {
+            "total": 67.14358849999999,
+            "count": 1,
+            "self": 0.0019592999999815675,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 67.1389695,
+                    "count": 1,
+                    "self": 67.1389695
+                },
+                "trainer_threads": {
+                    "total": 4.4000000087862645e-06,
+                    "count": 1,
+                    "self": 4.4000000087862645e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0026553000000006932,
+                    "count": 1,
+                    "self": 0.0026553000000006932
+                }
+            }
+        }
+    }
+}

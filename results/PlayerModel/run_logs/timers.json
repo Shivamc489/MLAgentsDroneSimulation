@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1599474811",
+        "python_version": "3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)]",
+        "command_line_arguments": "F:\\Unity Projects\\.VirtualEnvironments\\UnityMLAgentSetupEnv\\Scripts\\mlagents-learn PlayerMaze.yaml --run-id=PlayerModel",
+        "mlagents_version": "0.19.0",
+        "mlagents_envs_version": "0.19.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.3.0",
+        "numpy_version": "1.19.1",
+        "end_time_seconds": "1599474924"
+    },
+    "total": 113.7249353,
+    "count": 1,
+    "self": 5.651041699999993,
+    "children": {
+        "run_training.setup": {
+            "total": 4.730605699999998,
+            "count": 1,
+            "self": 4.730605699999998
+        },
+        "TrainerController.start_learning": {
+            "total": 103.3432879,
+            "count": 1,
+            "self": 0.14781379999999444,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 103.19490250000001,
+                    "count": 1,
+                    "self": 103.19490250000001
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0005716000000006716,
+                    "count": 1,
+                    "self": 0.0005716000000006716
+                }
+            }
+        }
+    }
+}
